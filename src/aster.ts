@@ -1,4 +1,4 @@
-import * as ts from "typescript";
+import ts from "typescript";
 
 interface AstNode {
     kind: string
@@ -23,7 +23,6 @@ export function getAST(sourceFile) {
             return null;
 
         if (val instanceof Array)
-
             return emitNodeArray(<ts.NodeArray<ts.Node>> val)
 
         var node = <ts.Node> val;
