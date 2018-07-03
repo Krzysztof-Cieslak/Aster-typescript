@@ -1,4 +1,6 @@
-# Webtask Express + TypeScript Boilerplate
+# Aster-typescript
+
+Backend hosted on webtask.io for transforming TS code into AST representation 
 
 ## Installation
 
