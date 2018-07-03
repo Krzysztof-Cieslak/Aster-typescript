@@ -14,5 +14,5 @@
 
 ## Development
 
-* `tsc` to compile Typescript into Javascript. Jetbrains IDEs will also do this for you. 
+* `tsc` to compile Typescript into Javascript. 
 * `npm create` to create and bundle the index Webtask function
